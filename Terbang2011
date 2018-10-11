@@ -1,0 +1,11 @@
+<?php
+ if(isset($_POST['submit'])){
+              $alas = $_POST['alas'];
+              $tinggi=$_POST['tinggi'];
+                $Luas_segitiga = 1/2 * $alas * $tinggi; 
+        echo "<div class='field_container'>
+              <input type='text' placeholder='hasilnya adalah' name='hasil' value='$Luas_segitiga' disabled>
+              </div>";
+
+}
+ ?> 
