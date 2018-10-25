@@ -1,0 +1,4 @@
+<?php
+{ akhir blok pertama
+} 
+?>
